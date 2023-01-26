@@ -1,4 +1,6 @@
-#Python program that utilizes the data type module to read in sound data from a file and train #a model to predict the A, B, C parameters for a line from the array center to the sound #source:
+#     Python program that utilizes the data type module to read in sound data from a file and train 
+#     a model to predict the A, B, C parameters for a line from the array center to the sound 
+#     source:
 
 import data_type_module
 import pandas as pd
