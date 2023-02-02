@@ -1,5 +1,5 @@
 import RawSound
-import sensor_threading
+import multiThreading
 
 # Acquire 4 times using the sensor_threading module
 times = sensor_threading.acquire_times()
