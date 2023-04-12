@@ -48,7 +48,7 @@ screen = pygame.display.set_mode(screen_size)
 # Load resources here...
 bg_image_path = AppHomeFolder + '/MenuSurface/menu_bg.png'
 bg_image = pygame.image.load(bg_image_path).convert_alpha()
-logo_image_path = os.path.abspath(AppHomeFolder + '/MenuSurface/menu_logo.png)
+logo_image_path = os.path.abspath(AppHomeFolder + '/MenuSurface/menu_logo.png')
 logo_image = pygame.image.load(logo_image_path).convert_alpha()
 
 # Set up the game loop
