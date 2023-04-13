@@ -5,7 +5,22 @@ import sys
 
 class ourFont:
     def __init__(self, font_folder='/Users/bmors/Documents/CSC 465/project_scripts/Application/ourFont'):
-        self.font_folder = font_folder
+        #self.font_folder = font_folder
+       
+
+
+        fontFolder = os.getcwd()
+#-------------------------------------------------------------------------------#|
+#PROPER FORMAT FOR IMPORTING A FILE(from within 'Application' folder somewhere) #|
+############################################################################### #|
+        currentDirectory = ''                                                   #|
+        sys.path.append(fontFolder)                                             #|
+        currentDirectory = fontFolder + '/ourFont'                              #|
+        from ourFont import ourFont                                             #|
+        sys.path.append(currentDirectory)                                       #|
+#-------------------------------------------------------------------------------#|
+        font_folder = currentDirectory
+
         self.char_width = 12
         self.char_height = 21
         self.char_dict = self.load_characters()
