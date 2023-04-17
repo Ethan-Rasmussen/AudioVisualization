@@ -1,15 +1,6 @@
 Program name: RegressionBuffer.py
 
-#-------------------------------------------------------------------------------#|
-#PROPER FORMAT FOR IMPORTING A FILE(from within 'Application' folder somewhere) #|
-############################################################################### #|
-        self.AppHomeFolder = Folder                                             #|
-        self.currentDirectory = ''                                              #|
-        sys.path.append(self.AppHomeFolder)                                     #|
-        self.currentDirectory = self.AppHomeFolder + '/Regression_Sandbox'      #|
-        sys.path.append(self.currentDirectory)                                  #|
-        from Regression_Sandbox import RawSound, ..other regression stuff       #|
-#-------------------------------------------------------------------------------#|
+
 
 
 import MatPlotLib
@@ -19,7 +10,27 @@ class RegressionBuffer():
 	#consider using a constants pattern like this:
 	self.history_mode = 'timed', or 'permanent', or 'last5buffer', or 'last10buffer'
 
-	def __int__(self)
+	def __int__(self, Folder = ''):
+		#-------------------------------------------------------------------------------#|
+		#PROPER FORMAT FOR IMPORTING A FILE(from within 'Application' folder somewhere) #|
+		############################################################################### #|
+			self.AppHomeFolder = Folder                                             #|
+			self.currentDirectory = ''                                              #|
+			sys.path.append(self.AppHomeFolder)                                     #|
+			self.currentDirectory = self.AppHomeFolder + '/Regression_Sandbox'      #|
+			sys.path.append(self.currentDirectory)                                  #|
+			from Regression_Sandbox import RawSound, ..other regression stuff       #|
+		#-------------------------------------------------------------------------------#|
+		#-------------------------------------------------------------------------------#|
+		#PROPER FORMAT FOR IMPORTING A FILE(from within 'Application' folder somewhere) #|
+		############################################################################### #|
+			self.AppHomeFolder = Folder                                             #|
+			self.currentDirectory = ''                                              #|
+			sys.path.append(self.AppHomeFolder)                                     #|
+			self.currentDirectory = self.AppHomeFolder + '/wherever the listener goes'#|
+			sys.path.append(self.currentDirectory)                                  #|
+			from ____ import ________________                                       #|
+		#-------------------------------------------------------------------------------#|
 		#set up the plot, using grapd3d_8.0.py to get the
 		# nice setup with the array there and everything.
 
