@@ -1,5 +1,16 @@
 Program name: RegressionBuffer.py
 
+#-------------------------------------------------------------------------------#|
+#PROPER FORMAT FOR IMPORTING A FILE(from within 'Application' folder somewhere) #|
+############################################################################### #|
+        self.AppHomeFolder = Folder                                             #|
+        self.currentDirectory = ''                                              #|
+        sys.path.append(self.AppHomeFolder)                                     #|
+        self.currentDirectory = self.AppHomeFolder + '/Regression_Sandbox'      #|
+        sys.path.append(self.currentDirectory)                                  #|
+        from Regression_Sandbox import RawSound, ..other regression stuff       #|
+#-------------------------------------------------------------------------------#|
+
 
 import MatPlotLib
 
