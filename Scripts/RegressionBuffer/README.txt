@@ -6,7 +6,7 @@ import MatPlotLib
 class RegressionBuffer():
 
 	#consider using a constants pattern like this:
-	history_mode = 'timed', or 'permanent', or 'last5buffer', or 'last10buffer'
+	self.history_mode = 'timed', or 'permanent', or 'last5buffer', or 'last10buffer'
 
 	def __int__(self)
 		#set up the plot, using grapd3d_8.0.py to get the
@@ -36,11 +36,11 @@ class RegressionBuffer():
 
 		heres where you would put the logic for:
 
-		if history_mode == 'timed':
+		if self.history_mode == 'timed':
 			for sound in graphed_sound_points:
 				if (sound has been plotted for over 10 seconds):
 					delete sound
-		elif history_mode == 'permanent'
+		elif self.history_mode == 'permanent'
 			for sounf in graphed_sound_points:
 				graph no matter what, if its in the list
 			if the user chooses clear sound buffer:
