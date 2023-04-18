@@ -72,3 +72,8 @@ you can call right away when you enter the __init__ to help you be sure that thi
 def abc_to_xyz(a=0.0, b=0.0, c=0.0){} ... so on and so forth
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 based on that, you want another version to go abc_to_xyz, or you can place logic in the previous function to get it all done in one. Obviously, theres many ways you could do this, but we just want to be able to trust this class to get us the other kind of parameter any time we ask for it as ling as we have one of the 2 kinds readily available. Using the new format for importing files, we should be able to bring in this class and have it work. So check examples like how it is set up in the 'FreshestCopyofApplication' folder... even thought those have a problem with the linking, you can see that is does not have to do with not being able to find the files it is looking for.
+
+//------------------------------------------------------------------------------------------------------------
+@classmethod
+def getNewGraphPoint(RawSound raw_sound):
+	#figure out the (x, y, z) point given a regressed raw_sound object off of the buffer
