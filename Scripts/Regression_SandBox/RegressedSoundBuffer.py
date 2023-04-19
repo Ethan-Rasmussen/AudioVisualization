@@ -5,7 +5,7 @@ from RawSound import RawSound
 class RegressedSoundBuffer:
     def __init__(self):
         # Load the trained model from the file
-        self.model_a, self.model_b, self.model_c = joblib.load('model.pkl')
+        self.model_a, self.model_b, self.model_c = joblib.load('/home/rpi/Desktop/AudioVisualization-main/Scripts/Regression_SandBox/model.pkl')
         self.buffer = []
 
     def add_raw_sound(self, raw_sound):
