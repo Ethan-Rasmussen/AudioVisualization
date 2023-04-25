@@ -23,7 +23,7 @@ sys.path.append(font_folder);                                                   
 #-------------------------------------------------------------------------------------------------------------------------------------#|# Now you can import your custom modules as if they were in the same folder
 
 class InputBox:
-    def __init__(self, rect, text="", color_active='lightskyblue3', color_inactive='gray15', font_name='RobotoCondensed-Regular.ttf', font_size=20):
+    def __init__(self, rect, text="", color_active=(255,255,255), color_inactive=(75,75,75), font_name='RobotoCondensed-Regular.ttf', font_size=20):
         from ourFont import ourFont
         self.rect = pygame.Rect(rect)
         self.x = self.rect.x

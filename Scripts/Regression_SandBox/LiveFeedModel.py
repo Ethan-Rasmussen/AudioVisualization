@@ -85,6 +85,7 @@ print(converted_sound_coord[1])
 print(converted_sound_coord[2])
 
 ax.scatter(converted_sound_coord[0], converted_sound_coord[1], converted_sound_coord[2], c='r', marker='o')
+ax.plot([0, converted_sound_coord[0]], [0, converted_sound_coord[1]], [0, converted_sound_coord[2]], color='blue')
 
 
 

@@ -4,7 +4,7 @@ class TextBox:
         self.rect = pygame.Rect(x, y, width, height)
         self.text = "5.0"
         self.active = False
-        self.font = pygame.font.Font("RobotoCondensed-Regular.ttf", 20)
+        self.font = pygame.font.Font("/usr/share/ghostscript/9.53.3/Resource/Font/NimbusSansNarrow-Oblique", 20)
         self.cursor_visible = False
         self.cursor_timer = 0
 
