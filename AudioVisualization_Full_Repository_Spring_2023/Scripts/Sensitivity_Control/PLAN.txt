@@ -1,0 +1,34 @@
+ outline of the code for training the model to adjust sensitivity levels based on varying conditions and sound levels:
+
+	1. Load the dataset containing sound recordings, along with the corresponding timestamps and sensitivity levels.
+
+
+	2. Preprocess the data by extracting relevant features, such as the time difference between the arrival of the sound signal at each microphone.
+
+
+	3. Split the dataset into training and testing sets.
+
+
+	4. Choose an appropriate machine learning algorithm, such as a decision tree, random forest, or support vector machine, to train the model.
+
+
+	5. Train the model using the training set, using techniques such as cross-validation to optimize the model's hyperparameters.
+
+
+	6. Evaluate the performance of the model using the testing set, using metrics such as accuracy, precision, recall, and F1 score.
+
+
+	7. If the performance of the model is satisfactory, save the model for later use. If not, return to step 4 and try a different algorithm or adjust the 	
+		hyperparameters.
+
+Once the model is trained and saved, it can be used to adjust the sensitivity levels of the microphones in real time based on the incoming sound signals and the model's predictions.
+
+
+_______________________________________________________________________________
+DEEP LEARNING
+
+To get started, you'll need to define the state space, action space, and reward function for the reinforcement learning problem. The state space could include information about the sound features, such as the time differences between microphones, and the current sensitivity levels of the sensors. The action space would be the possible voltage levels that can be supplied to the analog switch. The reward function would be based on the accuracy of trigger detection and the number of false triggers, as you mentioned.
+
+Once you have defined the problem in terms of state, action, and reward, you can start exploring different reinforcement learning algorithms to see which one works best for your application. You could start with a basic algorithm like Q-learning and gradually move on to more advanced algorithms like deep reinforcement learning if needed.
+
+Keep in mind that reinforcement learning requires a lot of training data, so you'll need to collect a large dataset of SCISound data and corresponding sensitivity levels to train the algorithm. You may also need to adjust the sensitivity levels manually during the training process to ensure that the algorithm is exploring the state space effectively.
