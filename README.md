@@ -7,4 +7,5 @@ The raw input data collected over serial is stored directly into binary files fo
 Learn Linear Regression model is trained or 'calibrated' through our GUI python app with user entered X,Y,Z data for test sounds. 
 Once calibrated, the system can then show a rotatable and resizable 3d-model depicting the tetrahedral array of sensors and a line 
 leaving the array's center heading in the direction of the localized sound source.# AudioVisualization
-![Figure_2_with_array_center_marked](https://user-images.githubusercontent.com/113371432/236647000-8e7da444-13c0-49ae-a6a5-90c13303ff02.png)
+![image](https://user-images.githubusercontent.com/113371432/236647279-7e1e62e7-e369-427a-b67e-3f13fde6a88c.png)
+
