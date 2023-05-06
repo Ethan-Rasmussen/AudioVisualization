@@ -6,6 +6,8 @@ the sensors. From here, the Time Delay of Arrival (TDOA) data was delivered to a
 The raw input data collected over serial is stored directly into binary files formatted with a user data type. From there an ScKit 
 Learn Linear Regression model is trained or 'calibrated' through our GUI python app with user entered X,Y,Z data for test sounds. 
 Once calibrated, the system can then show a rotatable and resizable 3d-model depicting the tetrahedral array of sensors and a line 
-leaving the array's center heading in the direction of the localized sound source.# AudioVisualization
+leaving the array's center heading in the direction of the localized sound source.
 ![image](https://user-images.githubusercontent.com/113371432/236647279-7e1e62e7-e369-427a-b67e-3f13fde6a88c.png)
+![image](https://user-images.githubusercontent.com/113371432/236647646-bcd6aee6-34d5-4ea7-a7dc-d11e2ce248ef.png)
+
 
